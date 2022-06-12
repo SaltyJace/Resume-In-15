@@ -6,10 +6,10 @@ using UnityEngine.InputSystem;
 public class InputManager : MonoBehaviour
 {
     private PlayerInput playerInput;
-    private PlayerInput.OnGroundActions onGroundActions;
+    public PlayerInput.OnGroundActions onGroundActions;
 
     private PlayerMovement movement;
-    private PlayerCamera cam;
+    private PlayerCamera _camera;
 
     // Start is called before the first frame update
     void Awake()
@@ -17,7 +17,7 @@ public class InputManager : MonoBehaviour
         playerInput = new PlayerInput();
         onGroundActions = playerInput.OnGround;
         movement = GetComponent<PlayerMovement>();
-        cam = GetComponent<PlayerCamera>();
+        _camera = GetComponent<PlayerCamera>();
     }
 
     // Update is called once per frame
@@ -28,7 +28,7 @@ public class InputManager : MonoBehaviour
 
     private void LateUpdate()
     {
-        cam.CameraLook(onGroundActions.CameraLook.ReadValue<Vector2>());
+        _camera.CameraLook(onGroundActions.CameraLook.ReadValue<Vector2>());
     }
 
     #region Enable or Disable Movement
