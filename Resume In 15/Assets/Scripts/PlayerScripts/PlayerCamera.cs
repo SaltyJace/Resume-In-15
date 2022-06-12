@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class PlayerCamera : MonoBehaviour
 {
-    public Camera cam;
+    public Camera _camera;
 
     private float x_Rotation = 0f;
 
@@ -22,7 +22,7 @@ public class PlayerCamera : MonoBehaviour
         x_Rotation = Mathf.Clamp(x_Rotation, -80f, 80f);
 
         //Camera Transform
-        cam.transform.localRotation = Quaternion.Euler(x_Rotation, 0f, 0f);
+        _camera.transform.localRotation = Quaternion.Euler(x_Rotation, 0f, 0f);
 
         //Rotate Player when looking 
         transform.Rotate(Vector3.up * (mouse_x * Time.deltaTime) * x_Sensitivity);
