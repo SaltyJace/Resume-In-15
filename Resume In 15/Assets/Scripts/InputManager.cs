@@ -6,7 +6,7 @@ using UnityEngine.InputSystem;
 public class InputManager : MonoBehaviour
 {
     private PlayerInput playerInput;
-    private PlayerInput.OnGroundActions onGroundActions;
+    public PlayerInput.OnGroundActions onGroundActions;
 
     private PlayerMovement movement;
     private PlayerCamera _camera;

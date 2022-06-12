@@ -21,6 +21,6 @@ public class ExampleCube : Interactable
     /// </summary>
     protected override void Interact()
     {
-        Debug.Log($"Interacted with : {gameObject.name}");
+        Object.Destroy(gameObject); //just destroy cube for now
     }
 }

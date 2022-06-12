@@ -15,11 +15,14 @@ public class PlayerInteraction : MonoBehaviour
     [SerializeField]
     private PlayerUI playerUI;
 
+    private InputManager inputManager;
+
     // Start is called before the first frame update
     void Start()
     {
         _camera = GetComponent<PlayerCamera>()._camera; //grab current camera
         playerUI = GetComponent<PlayerUI>();
+        inputManager = GetComponent<InputManager>();
     }
 
     // Update is called once per frame
@@ -44,7 +47,17 @@ public class PlayerInteraction : MonoBehaviour
         {
             if (hit.collider.GetComponent<Interactable>() != null)
             {
+                //Give interactable
+                Interactable interactable = hit.collider.GetComponent<Interactable>();
+
+                //Update the text on screen
                 playerUI.UpdateText(hit.collider.GetComponent<Interactable>().prompt);
+                
+                //check for interact press
+                if(inputManager.onGroundActions.Interact.triggered)
+                {
+                    interactable.BaseInteract(); //this will run the "Interact" function in the overrwritten interactable object
+                }
             }
         }
 

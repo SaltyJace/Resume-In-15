@@ -157,6 +157,17 @@
                 },
                 {
                     "name": "",
+                    "id": "b9a8c23e-c877-40fd-8f70-7aa2b90811b7",
+                    "path": "<Gamepad>/buttonWest",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Interact",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
                     "id": "f32ec152-9a2f-469c-aadf-5e77572f8283",
                     "path": "<Mouse>/delta",
                     "interactions": "",
