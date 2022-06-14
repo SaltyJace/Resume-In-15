@@ -1,6 +1,6 @@
 Using pre-set license
 Built from '2021.3/staging' branch; Version is '2021.3.4f1 (cb45f9cae8b7) revision 13321721'; Using compiler version '192829333'; Build Type 'Release'
-OS: 'Windows 10  (10.0.19044) 64bit Core' Language: 'en' Physical Memory: 32718 MB
+OS: 'Windows 10  (10.0.19044) 64bit Core' Language: 'en' Physical Memory: 16296 MB
 BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 1
 
 COMMAND LINE ARGUMENTS:
@@ -11,13 +11,13 @@ C:\Program Files\Unity\Hub\Editor\2021.3.4f1\Editor\Unity.exe
 -name
 AssetImportWorker0
 -projectPath
-C:/Users/dblaa/Documents/GitHub/Resume-In-15/Resume In 15
+C:/Users/ben/Documents/GitHub/Resume-In-15/Resume In 15
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-49839
-Successfully changed project path to: C:/Users/dblaa/Documents/GitHub/Resume-In-15/Resume In 15
-C:/Users/dblaa/Documents/GitHub/Resume-In-15/Resume In 15
+50846
+Successfully changed project path to: C:/Users/ben/Documents/GitHub/Resume-In-15/Resume In 15
+C:/Users/ben/Documents/GitHub/Resume-In-15/Resume In 15
 [UnityMemory] Configuration Parameters - Can be set up in boot.config
     "memorysetup-bucket-allocator-granularity=16"
     "memorysetup-bucket-allocator-bucket-count=8"
@@ -47,105 +47,108 @@ C:/Users/dblaa/Documents/GitHub/Resume-In-15/Resume In 15
     "memorysetup-temp-allocator-size-cloud-worker=32768"
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gfx=262144"
-Refreshing native plugins compatible for Editor in 99.77 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 107.33 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2021.3.4f1 (cb45f9cae8b7)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2021.3.4f1/Editor/Data/Resources/UnitySubsystems
-[Subsystems] Discovering subsystems at path C:/Users/dblaa/Documents/GitHub/Resume-In-15/Resume In 15/Assets
+[Subsystems] Discovering subsystems at path C:/Users/ben/Documents/GitHub/Resume-In-15/Resume In 15/Assets
 GfxDevice: creating device client; threaded=0; jobified=0
 Direct3D:
     Version:  Direct3D 11.0 [level 11.1]
-    Renderer: NVIDIA GeForce GTX 1050 Ti (ID=0x1c82)
+    Renderer: NVIDIA GeForce GTX 1070 (ID=0x1b81)
     Vendor:   NVIDIA
-    VRAM:     4018 MB
-    Driver:   27.21.14.5751
+    VRAM:     8088 MB
+    Driver:   30.0.15.1259
 Initialize mono
 Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2021.3.4f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2021.3.4f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
 Mono config path = 'C:/Program Files/Unity/Hub/Editor/2021.3.4f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56724
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56568
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.3.4f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.3.4f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.010217 seconds.
+Registered in 0.009968 seconds.
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 99.81 ms, found 3 plugins.
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 80.39 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.780 seconds
+- Completed reload, in  0.662 seconds
 Domain Reload Profiling:
-	ReloadAssembly (781ms)
-		BeginReloadAssembly (96ms)
+	ReloadAssembly (662ms)
+		BeginReloadAssembly (89ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (0ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
 			CreateAndSetChildDomain (1ms)
-		EndReloadAssembly (545ms)
-			LoadAssemblies (93ms)
+		EndReloadAssembly (451ms)
+			LoadAssemblies (87ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (123ms)
+			SetupTypeCache (106ms)
 			ReleaseScriptCaches (0ms)
-			RebuildScriptCaches (30ms)
-			SetupLoadedEditorAssemblies (329ms)
+			RebuildScriptCaches (25ms)
+			SetupLoadedEditorAssemblies (270ms)
 				LogAssemblyErrors (0ms)
 				InitializePlatformSupportModulesInManaged (10ms)
 				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (100ms)
-				BeforeProcessingInitializeOnLoad (2ms)
-				ProcessInitializeOnLoadAttributes (161ms)
-				ProcessInitializeOnLoadMethodAttributes (56ms)
+				RefreshPlugins (80ms)
+				BeforeProcessingInitializeOnLoad (1ms)
+				ProcessInitializeOnLoadAttributes (133ms)
+				ProcessInitializeOnLoadMethodAttributes (45ms)
 				AfterProcessingInitializeOnLoad (0ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
 			AwakeInstancesAfterBackupRestoration (0ms)
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.008425 seconds.
+Registered in 0.007769 seconds.
 Begin MonoManager ReloadAssembly
-Symbol file LoadedFromMemory doesn't match image C:\Users\dblaa\Documents\GitHub\Resume-In-15\Resume In 15\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
-Symbol file LoadedFromMemory doesn't match image C:\Users\dblaa\Documents\GitHub\Resume-In-15\Resume In 15\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\ben\Documents\GitHub\Resume-In-15\Resume In 15\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\ben\Documents\GitHub\Resume-In-15\Resume In 15\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 95.56 ms, found 3 plugins.
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 85.91 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.405 seconds
+- Completed reload, in  1.245 seconds
 Domain Reload Profiling:
-	ReloadAssembly (1406ms)
-		BeginReloadAssembly (141ms)
+	ReloadAssembly (1246ms)
+		BeginReloadAssembly (120ms)
 			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (7ms)
+			DisableScriptedObjects (5ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
 			CreateAndSetChildDomain (21ms)
-		EndReloadAssembly (1118ms)
-			LoadAssemblies (111ms)
+		EndReloadAssembly (1000ms)
+			LoadAssemblies (99ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (315ms)
+			SetupTypeCache (308ms)
 			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (58ms)
-			SetupLoadedEditorAssemblies (579ms)
+			RebuildScriptCaches (52ms)
+			SetupLoadedEditorAssemblies (506ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (7ms)
+				InitializePlatformSupportModulesInManaged (6ms)
 				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (96ms)
-				BeforeProcessingInitializeOnLoad (107ms)
-				ProcessInitializeOnLoadAttributes (327ms)
-				ProcessInitializeOnLoadMethodAttributes (29ms)
-				AfterProcessingInitializeOnLoad (13ms)
+				RefreshPlugins (86ms)
+				BeforeProcessingInitializeOnLoad (96ms)
+				ProcessInitializeOnLoadAttributes (283ms)
+				ProcessInitializeOnLoadMethodAttributes (23ms)
+				AfterProcessingInitializeOnLoad (10ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
 			AwakeInstancesAfterBackupRestoration (7ms)
 Platform modules already initialized, skipping
 ========================================================================
 Worker process is ready to serve import requests
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.07 seconds
-Refreshing native plugins compatible for Editor in 0.70 ms, found 3 plugins.
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.10 seconds
+Refreshing native plugins compatible for Editor in 0.98 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 3727 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 28 unused Assets / (55.3 KB). Loaded Objects now: 4187.
-Memory consumption went from 133.1 MB to 133.1 MB.
-Total: 4.010400 ms (FindLiveObjects: 0.398200 ms CreateObjectMapping: 0.098300 ms MarkObjects: 3.412200 ms  DeleteObjects: 0.100200 ms)
+Unloading 28 unused Assets / (55.5 KB). Loaded Objects now: 4186.
+Memory consumption went from 133.2 MB to 133.1 MB.
+Total: 5.483900 ms (FindLiveObjects: 0.338900 ms CreateObjectMapping: 0.265500 ms MarkObjects: 4.776800 ms  DeleteObjects: 0.101700 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
@@ -159,25 +162,71 @@ AssetImportParameters requested are different than current active one (requested
   custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
-  Time since last request: 282282.028006 seconds.
-  path: Assets/Scripts/PlayerScripts
-  artifactKey: Guid(131aede0841753347b9577fe2d182580) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/PlayerScripts using Guid(131aede0841753347b9577fe2d182580) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '423484e97974c5073fa63f90398409be') in 0.013622 seconds 
+  Time since last request: 2304598.734514 seconds.
+  path: Assets/TheBaseMesh_PrototypingAssets
+  artifactKey: Guid(790a4b5afe739124fb8dd25c97a89206) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TheBaseMesh_PrototypingAssets using Guid(790a4b5afe739124fb8dd25c97a89206) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f382f1e2d694af6cc7a2f5ef4fafdf93') in 0.014318 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.301528 seconds.
-  path: Assets/TextMesh Pro/Documentation
-  artifactKey: Guid(8e7e8f5a82a3a134e91c54efd2274ea9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/TextMesh Pro/Documentation using Guid(8e7e8f5a82a3a134e91c54efd2274ea9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '365e95d1c1490fa81b8510ec77c394a2') in 0.163455 seconds 
+  Time since last request: 5.435466 seconds.
+  path: Assets/TheBaseMesh_PrototypingAssets/hexTiles
+  artifactKey: Guid(bbe90ce29a7b3b8449d1004c739e5ef1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TheBaseMesh_PrototypingAssets/hexTiles using Guid(bbe90ce29a7b3b8449d1004c739e5ef1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3f34f0be4af11b295aa125d6be4a0451') in 0.006855 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 7.799942 seconds.
-  path: Assets/TextMesh Pro/Resources
-  artifactKey: Guid(243e06394e614e5d99fab26083b707fa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/TextMesh Pro/Resources using Guid(243e06394e614e5d99fab26083b707fa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4b25fcc2b6957111a9e254e1bce62b86') in 0.008150 seconds 
+  Time since last request: 5.961266 seconds.
+  path: Assets/TheBaseMesh_PrototypingAssets/hexTiles/hexagon_paving_tile.fbx
+  artifactKey: Guid(4bb3db83cb1c87c4a84dbfa5714fe0f3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TheBaseMesh_PrototypingAssets/hexTiles/hexagon_paving_tile.fbx using Guid(4bb3db83cb1c87c4a84dbfa5714fe0f3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7c91855eb0122e1d3eecd35ed64f4646') in 0.180593 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.060998 seconds.
-  path: Assets/TextMesh Pro/Resources/TMP Settings.asset
-  artifactKey: Guid(3f5b5dff67a942289a9defa416b206f3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/TextMesh Pro/Resources/TMP Settings.asset using Guid(3f5b5dff67a942289a9defa416b206f3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2eb606ad70dabfa70adaa1be5ff45163') in 0.080892 seconds 
+  Time since last request: 0.000026 seconds.
+  path: Assets/TheBaseMesh_PrototypingAssets/hexTiles/hexagon_paving_tile.png
+  artifactKey: Guid(e4a444c3e2e86c5479a8766564036b26) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TheBaseMesh_PrototypingAssets/hexTiles/hexagon_paving_tile.png using Guid(e4a444c3e2e86c5479a8766564036b26) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5c61f1d1b88f92fe342f8bdd9e9e02c1') in 0.027890 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 37.529262 seconds.
+  path: Assets/TheBaseMesh_PrototypingAssets/hexagon_paving_tile.fbx
+  artifactKey: Guid(d0dda4e849de65e4e99e28193fd33962) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TheBaseMesh_PrototypingAssets/hexagon_paving_tile.fbx using Guid(d0dda4e849de65e4e99e28193fd33962) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '76d35f026d2accbcf96c9086ea542dd4') in 0.019969 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 13.519065 seconds.
+  path: Assets/TheBaseMesh_PrototypingAssets/hexagon_paving_tile 1.fbx
+  artifactKey: Guid(c5600d3d36f51764f99803044c83f0df) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TheBaseMesh_PrototypingAssets/hexagon_paving_tile 1.fbx using Guid(c5600d3d36f51764f99803044c83f0df) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bb89ddee767caf21be6662d5a7ee0ff1') in 0.037446 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/TheBaseMesh_PrototypingAssets/office_folder.fbx
+  artifactKey: Guid(563679926318f4440938e1067fbb2f45) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TheBaseMesh_PrototypingAssets/office_folder.fbx using Guid(563679926318f4440938e1067fbb2f45) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b0b16f7af933234840e9c17d081d984b') in 0.038632 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000037 seconds.
+  path: Assets/TheBaseMesh_PrototypingAssets/office_desk.fbx
+  artifactKey: Guid(8731f32c5bc582640baf3e317f2cb255) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TheBaseMesh_PrototypingAssets/office_desk.fbx using Guid(8731f32c5bc582640baf3e317f2cb255) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bbc00fb0763fe6463a638c55a2dbd951') in 0.033899 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/TheBaseMesh_PrototypingAssets/mesh_bin.fbx
+  artifactKey: Guid(62e2b3cb374d6ac4387278fa41fc5dc3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TheBaseMesh_PrototypingAssets/mesh_bin.fbx using Guid(62e2b3cb374d6ac4387278fa41fc5dc3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4260a2cef4a9ad5efb28c2c8b3fe9792') in 0.025656 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000038 seconds.
+  path: Assets/TheBaseMesh_PrototypingAssets/office_chair.fbx
+  artifactKey: Guid(329de281b59ed2c4498c1d7ecf8c3c30) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TheBaseMesh_PrototypingAssets/office_chair.fbx using Guid(329de281b59ed2c4498c1d7ecf8c3c30) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5c1995d11556f53e1056d2ad7607660e') in 0.070965 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/TheBaseMesh_PrototypingAssets/skirting_ogee.fbx
+  artifactKey: Guid(b7cb4717a40707342b928cf1eb97e6fc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TheBaseMesh_PrototypingAssets/skirting_ogee.fbx using Guid(b7cb4717a40707342b928cf1eb97e6fc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '58959891ef493ecb7a346b7f6b38fb6a') in 0.026980 seconds 
+Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
+AssetImportWorker is now disconnected from the server
+Process exiting
+Exiting without the bug reporter. Application will terminate with return code 0
