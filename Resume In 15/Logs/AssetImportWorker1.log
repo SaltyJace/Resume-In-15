@@ -166,3 +166,13 @@ Received Import Request.
   path: Assets/Scenes/EmileTestScene.unity
   artifactKey: Guid(e60b0e7766dff594688c673061b138af) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
 Start importing Assets/Scenes/EmileTestScene.unity using Guid(e60b0e7766dff594688c673061b138af) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f2a91e7ea5eb5f0cfbc5e54c4a1dc16f') in 0.015741 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 930.011808 seconds.
+  path: Assets/TextMesh Pro/Resources/Fonts & Materials/LiberationSans SDF - Drop Shadow.mat
+  artifactKey: Guid(e73a58f6e2794ae7b1b7e50b7fb811b0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TextMesh Pro/Resources/Fonts & Materials/LiberationSans SDF - Drop Shadow.mat using Guid(e73a58f6e2794ae7b1b7e50b7fb811b0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd35eaec959038775793adc4c78f6566d') in 0.249353 seconds 
+Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
+AssetImportWorker is now disconnected from the server
+Process exiting
+Exiting without the bug reporter. Application will terminate with return code 0
