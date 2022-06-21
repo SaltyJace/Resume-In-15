@@ -2081,10 +2081,6 @@ PrefabInstance:
       propertyPath: target
       value: 
       objectReference: {fileID: 597640590}
-    - target: {fileID: 3041223182909918723, guid: 6b44b5b56dd34934f952c7f5c42d0fe1, type: 3}
-      propertyPath: spawnTime
-      value: 0.5
-      objectReference: {fileID: 0}
     - target: {fileID: 3041223182909918724, guid: 6b44b5b56dd34934f952c7f5c42d0fe1, type: 3}
       propertyPath: m_Name
       value: adSpawner
@@ -3399,10 +3395,6 @@ PrefabInstance:
       propertyPath: target
       value: 
       objectReference: {fileID: 171763740}
-    - target: {fileID: 3041223182909918723, guid: 6b44b5b56dd34934f952c7f5c42d0fe1, type: 3}
-      propertyPath: spawnTime
-      value: 0.75
-      objectReference: {fileID: 0}
     - target: {fileID: 3041223182909918724, guid: 6b44b5b56dd34934f952c7f5c42d0fe1, type: 3}
       propertyPath: m_Name
       value: SecondAdSpawner
