@@ -13,7 +13,9 @@ public class PlayerUI : MonoBehaviour
     [Header("List of Tasks")]
     [SerializeField]
     private TextMeshProUGUI task1;
+    [SerializeField]
     private TextMeshProUGUI task2;
+    [SerializeField]
     private TextMeshProUGUI task3;
 
     //Checks for completion status
