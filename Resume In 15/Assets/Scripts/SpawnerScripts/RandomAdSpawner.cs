@@ -5,7 +5,7 @@ using UnityEngine;
 public class RandomAdSpawner : MonoBehaviour
 {
     public GameObject objectToSpawn;
-    public Vector3 centerPoint; // TODO: may want to change to use a parent object's position instead
+    public Transform target;
     public float radius;
     public float spawnTime; // how frequently objects spawn
     private float currentTimeToSpawn; // time until next spawn
@@ -24,18 +24,19 @@ public class RandomAdSpawner : MonoBehaviour
             currentTimeToSpawn -= Time.deltaTime;
         }
         else{
-            SpawnObject();
+            SpawnObject(target.position);
             currentTimeToSpawn = spawnTime;
         }
     }
 
     // spawn the object
-    public void SpawnObject(){
+    public void SpawnObject(Vector3 centerPoint){
         // get random point in sphere
         Vector3 pointOnShpere = GetPointOnSphere(centerPoint, radius);
         // instantiate new ad object at point
         //TODO: change rotation to look at center of sphere
-        Instantiate(objectToSpawn, pointOnShpere, Quaternion.identity);
+        GameObject adObj = (GameObject)Instantiate(objectToSpawn, pointOnShpere, Quaternion.identity);
+        adObj.transform.LookAt(target);
     }
 
     // TODO: fix method to correctly find sphere center
