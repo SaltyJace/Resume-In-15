@@ -33,22 +33,13 @@ public class RandomAdSpawner : MonoBehaviour
     public void SpawnObject(Vector3 centerPoint){
         // get random point in sphere
         Vector3 pointOnShpere = GetPointOnSphere(centerPoint, radius);
+
         // instantiate new ad object at point
-        //TODO: change rotation to look at center of sphere
         GameObject adObj = (GameObject)Instantiate(objectToSpawn, pointOnShpere, Quaternion.identity);
         adObj.transform.LookAt(target);
-    }
 
-    // TODO: fix method to correctly find sphere center
-    // calculate phi from vector3
-    /*private float GetPitchFromCartesian(Vector3 pointOnSphere){
-        float xSqr = Mathf.Pow(pointOnSphere.x, 2);
-        float ySqr = Mathf.Pow(pointOnSphere.y, 2);
-        float zSqr = Mathf.Pow(pointOnSphere.z, 2);
-        float phi = Mathf.Acos(pointOnSphere.y / Mathf.Sqrt(xSqr + ySqr + zSqr));
-        //print("phi is: " + phi);
-        return phi * Mathf.Rad2Deg;
-    }*/
+        //adObj.GetComponent<AdFollow>().setTarget(target, pointOnShpere);
+    }
 
     // generate random sphere point
     private Vector3 GetPointOnSphere(Vector3 sphereCenter, float radius){
