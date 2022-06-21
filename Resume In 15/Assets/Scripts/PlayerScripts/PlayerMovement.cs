@@ -11,6 +11,8 @@ public class PlayerMovement : MonoBehaviour
     public float gravity = -9.8f;
     public float speed = 10f;
 
+    private bool isMoving = false;
+
     // Start is called before the first frame update
     void Start()
     {
@@ -31,8 +33,19 @@ public class PlayerMovement : MonoBehaviour
         direction.z = input.y;
         controller.Move(transform.TransformDirection(direction) * speed * Time.deltaTime);
 
+        #region Retrieve Movement
+        if(direction.x != 0 || direction.z != 0 && isGrounded)
+        {
+            isMoving = true;
+        }
+        else
+        {
+            isMoving = false;
+        }
+        #endregion
+
         //Ensure player isn't contnously going down even when grounded
-        if(isGrounded && playerVelocity.y < 0)
+        if (isGrounded && playerVelocity.y < 0)
         {
             playerVelocity.y = -5f;
         }
@@ -41,5 +54,10 @@ public class PlayerMovement : MonoBehaviour
         playerVelocity.y += gravity * Time.deltaTime;
         controller.Move(playerVelocity * Time.deltaTime);
         //Debug.Log(playerVelocity.y);
+    }
+
+    public bool IsMoving()
+    {
+        return isMoving;
     }
 }
