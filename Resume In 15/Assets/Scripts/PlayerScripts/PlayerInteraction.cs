@@ -7,7 +7,7 @@ public class PlayerInteraction : MonoBehaviour
     private Camera _camera;
 
     [SerializeField]
-    private float distance = 7f; //distance between player and interactable
+    private float distance = 5f; //distance between player and interactable
 
     [SerializeField]
     private LayerMask mask;

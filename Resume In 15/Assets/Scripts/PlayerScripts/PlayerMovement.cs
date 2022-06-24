@@ -53,6 +53,7 @@ public class PlayerMovement : MonoBehaviour
         //Handle gravity of player
         playerVelocity.y += gravity * Time.deltaTime;
         controller.Move(playerVelocity * Time.deltaTime);
+        //Debug.Log(playerVelocity.y);
     }
 
     public bool IsMoving()

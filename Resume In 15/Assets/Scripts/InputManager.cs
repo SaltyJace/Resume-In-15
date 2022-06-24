@@ -32,12 +32,12 @@ public class InputManager : MonoBehaviour
     }
 
     #region Enable or Disable Movement
-    public void OnEnable()
+    private void OnEnable()
     {
         onGroundActions.Enable();
     }
     
-    public void OnDisable()
+    private void OnDisable()
     {
         onGroundActions.Disable();
     }

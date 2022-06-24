@@ -41,8 +41,8 @@ public abstract class Interactable : MonoBehaviour
     /// <param name="taskToComplete"></param>
     protected void CompleteTask(TextMeshProUGUI taskToComplete)
     {
-        Color currentTextOpacity = taskToComplete.color;
+        Color currentTextOpacity = task.color;
         currentTextOpacity.a = 0.2f;
-        taskToComplete.color = currentTextOpacity;
+        task.color = currentTextOpacity;
     }
 }
