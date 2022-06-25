@@ -675,7 +675,7 @@ GameObject:
   - component: {fileID: 2203943097401915019}
   - component: {fileID: 2203943097401915028}
   m_Layer: 5
-  m_Name: Destroy Cube
+  m_Name: Task 3
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -729,8 +729,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: 'Destroy Cube
-
+  m_text: 'Task 3
 
 '
   m_isRightToLeft: 0
