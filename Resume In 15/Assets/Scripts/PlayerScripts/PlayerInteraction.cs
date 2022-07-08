@@ -12,7 +12,6 @@ public class PlayerInteraction : MonoBehaviour
     [SerializeField]
     private LayerMask mask;
 
-    [SerializeField]
     private PlayerUI playerUI;
 
     private InputManager inputManager;
@@ -57,6 +56,7 @@ public class PlayerInteraction : MonoBehaviour
                 if(inputManager.onGroundActions.Interact.triggered)
                 {
                     interactable.BaseInteract(); //this will run the "Interact" function in the overrwritten interactable object
+                    interactable.BaseCompleteTask(); //Complete the task associated with interactable
                 }
             }
         }
