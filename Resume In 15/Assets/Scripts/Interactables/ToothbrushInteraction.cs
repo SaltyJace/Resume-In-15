@@ -12,7 +12,7 @@ public class ToothbrushInteraction : Interactable
     //LateUpdate happens during Interaction
     private void LateUpdate()
     {
-        if(!_audio.isPlaying)
+        if (!_audio.isPlaying)
             _input.EnableMovement();
     }
 
