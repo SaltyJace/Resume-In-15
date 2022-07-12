@@ -2,17 +2,15 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class GetLightbulbInteractable : Interactable
+public class EatToast : Interactable
 {
-    [SerializeField]
-    private GameObject bulbContainer;
 
     /// <summary>
     /// Use this function to make any type of interaction
     /// </summary>
     protected override void Interact()
     {
-        bulbContainer.layer = 6;
-        Destroy(gameObject);
+        gameObject.SetActive(false);
+        gameObject.layer = 0;
     }
 }

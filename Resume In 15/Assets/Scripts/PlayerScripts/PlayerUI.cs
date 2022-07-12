@@ -17,6 +17,8 @@ public class PlayerUI : MonoBehaviour
     private TextMeshProUGUI task2;
     [SerializeField]
     private TextMeshProUGUI task3;
+    [SerializeField]
+    private TextMeshProUGUI task4;
 
     //Checks for completion status
     private readonly float opacityOfCompletion = 0.2f;
@@ -28,7 +30,7 @@ public class PlayerUI : MonoBehaviour
 
     public bool allTasksComplete()
     {
-        if (task1.color.a == opacityOfCompletion && task2.color.a == opacityOfCompletion && task3.color.a == opacityOfCompletion)
+        if (task1.color.a == opacityOfCompletion && task2.color.a == opacityOfCompletion && task3.color.a == opacityOfCompletion && task4.color.a == opacityOfCompletion)
         {
             return true;
         }
