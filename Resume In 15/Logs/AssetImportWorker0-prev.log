@@ -1,6 +1,6 @@
 Using pre-set license
 Built from '2021.3/staging' branch; Version is '2021.3.4f1 (cb45f9cae8b7) revision 13321721'; Using compiler version '192829333'; Build Type 'Release'
-OS: 'Windows 10  (10.0.19044) 64bit Professional' Language: 'en' Physical Memory: 32679 MB
+OS: 'Windows 10  (10.0.19044) 64bit Core' Language: 'en' Physical Memory: 16296 MB
 BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 1
 
 COMMAND LINE ARGUMENTS:
@@ -11,13 +11,13 @@ C:\Program Files\Unity\Hub\Editor\2021.3.4f1\Editor\Unity.exe
 -name
 AssetImportWorker0
 -projectPath
-C:/Users/brend/Documents/GitHub/Resume-In-15/Resume In 15
+C:/Users/ben/Documents/GitHub/Resume-In-15/Resume In 15
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-54571
-Successfully changed project path to: C:/Users/brend/Documents/GitHub/Resume-In-15/Resume In 15
-C:/Users/brend/Documents/GitHub/Resume-In-15/Resume In 15
+54506
+Successfully changed project path to: C:/Users/ben/Documents/GitHub/Resume-In-15/Resume In 15
+C:/Users/ben/Documents/GitHub/Resume-In-15/Resume In 15
 [UnityMemory] Configuration Parameters - Can be set up in boot.config
     "memorysetup-bucket-allocator-granularity=16"
     "memorysetup-bucket-allocator-bucket-count=8"
@@ -47,105 +47,108 @@ C:/Users/brend/Documents/GitHub/Resume-In-15/Resume In 15
     "memorysetup-temp-allocator-size-cloud-worker=32768"
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gfx=262144"
-Refreshing native plugins compatible for Editor in 105.47 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 95.26 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2021.3.4f1 (cb45f9cae8b7)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2021.3.4f1/Editor/Data/Resources/UnitySubsystems
-[Subsystems] Discovering subsystems at path C:/Users/brend/Documents/GitHub/Resume-In-15/Resume In 15/Assets
+[Subsystems] Discovering subsystems at path C:/Users/ben/Documents/GitHub/Resume-In-15/Resume In 15/Assets
 GfxDevice: creating device client; threaded=0; jobified=0
 Direct3D:
     Version:  Direct3D 11.0 [level 11.1]
-    Renderer: NVIDIA GeForce GTX 1080 Ti (ID=0x1b06)
+    Renderer: NVIDIA GeForce GTX 1070 (ID=0x1b81)
     Vendor:   NVIDIA
-    VRAM:     11128 MB
-    Driver:   30.0.15.1179
+    VRAM:     8088 MB
+    Driver:   30.0.15.1259
 Initialize mono
 Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2021.3.4f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2021.3.4f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
 Mono config path = 'C:/Program Files/Unity/Hub/Editor/2021.3.4f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56488
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56420
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.3.4f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.3.4f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.008944 seconds.
+Registered in 0.010059 seconds.
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 88.88 ms, found 3 plugins.
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 84.38 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.632 seconds
+- Completed reload, in  0.681 seconds
 Domain Reload Profiling:
-	ReloadAssembly (632ms)
+	ReloadAssembly (681ms)
 		BeginReloadAssembly (71ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (0ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
 			CreateAndSetChildDomain (1ms)
-		EndReloadAssembly (452ms)
+		EndReloadAssembly (493ms)
 			LoadAssemblies (69ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (99ms)
+			SetupTypeCache (104ms)
 			ReleaseScriptCaches (0ms)
 			RebuildScriptCaches (26ms)
-			SetupLoadedEditorAssemblies (279ms)
+			SetupLoadedEditorAssemblies (310ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (7ms)
+				InitializePlatformSupportModulesInManaged (10ms)
 				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (89ms)
+				RefreshPlugins (84ms)
 				BeforeProcessingInitializeOnLoad (1ms)
-				ProcessInitializeOnLoadAttributes (141ms)
-				ProcessInitializeOnLoadMethodAttributes (41ms)
+				ProcessInitializeOnLoadAttributes (151ms)
+				ProcessInitializeOnLoadMethodAttributes (63ms)
 				AfterProcessingInitializeOnLoad (0ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
 			AwakeInstancesAfterBackupRestoration (0ms)
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.006652 seconds.
+Registered in 0.007641 seconds.
 Begin MonoManager ReloadAssembly
-Symbol file LoadedFromMemory doesn't match image C:\Users\brend\Documents\GitHub\Resume-In-15\Resume In 15\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
-Symbol file LoadedFromMemory doesn't match image C:\Users\brend\Documents\GitHub\Resume-In-15\Resume In 15\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\ben\Documents\GitHub\Resume-In-15\Resume In 15\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\ben\Documents\GitHub\Resume-In-15\Resume In 15\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 95.86 ms, found 3 plugins.
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 87.92 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.161 seconds
+- Completed reload, in  1.327 seconds
 Domain Reload Profiling:
-	ReloadAssembly (1162ms)
-		BeginReloadAssembly (114ms)
+	ReloadAssembly (1328ms)
+		BeginReloadAssembly (123ms)
 			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (7ms)
+			DisableScriptedObjects (6ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (18ms)
-		EndReloadAssembly (941ms)
-			LoadAssemblies (82ms)
+			CreateAndSetChildDomain (21ms)
+		EndReloadAssembly (1070ms)
+			LoadAssemblies (89ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (270ms)
+			SetupTypeCache (320ms)
 			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (48ms)
-			SetupLoadedEditorAssemblies (506ms)
+			RebuildScriptCaches (64ms)
+			SetupLoadedEditorAssemblies (552ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (4ms)
+				InitializePlatformSupportModulesInManaged (7ms)
 				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (96ms)
-				BeforeProcessingInitializeOnLoad (94ms)
-				ProcessInitializeOnLoadAttributes (282ms)
-				ProcessInitializeOnLoadMethodAttributes (23ms)
-				AfterProcessingInitializeOnLoad (8ms)
+				RefreshPlugins (88ms)
+				BeforeProcessingInitializeOnLoad (96ms)
+				ProcessInitializeOnLoadAttributes (322ms)
+				ProcessInitializeOnLoadMethodAttributes (28ms)
+				AfterProcessingInitializeOnLoad (10ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (5ms)
+			AwakeInstancesAfterBackupRestoration (7ms)
 Platform modules already initialized, skipping
 ========================================================================
 Worker process is ready to serve import requests
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.04 seconds
-Refreshing native plugins compatible for Editor in 0.64 ms, found 3 plugins.
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.06 seconds
+Refreshing native plugins compatible for Editor in 0.96 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 3740 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 30 unused Assets / (111.6 KB). Loaded Objects now: 4200.
-Memory consumption went from 133.9 MB to 133.8 MB.
-Total: 3.249600 ms (FindLiveObjects: 0.291100 ms CreateObjectMapping: 0.212000 ms MarkObjects: 2.648500 ms  DeleteObjects: 0.096800 ms)
+Unloading 3737 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 28 unused Assets / (55.3 KB). Loaded Objects now: 4197.
+Memory consumption went from 133.4 MB to 133.4 MB.
+Total: 5.264600 ms (FindLiveObjects: 0.378300 ms CreateObjectMapping: 0.265900 ms MarkObjects: 4.545700 ms  DeleteObjects: 0.073100 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
@@ -159,35 +162,54 @@ AssetImportParameters requested are different than current active one (requested
   custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
-  Time since last request: 11411.035818 seconds.
-  path: Assets/Meshes/Model
-  artifactKey: Guid(c17437621ee51f44cbe1260df0ca6ae1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Meshes/Model using Guid(c17437621ee51f44cbe1260df0ca6ae1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'affcc272f3afa189f9425a062d045b5a') in 0.010879 seconds 
+  Time since last request: 1623248.431090 seconds.
+  path: Assets/Meshes/houseAssets/bathRoom/showerDoorDone.fbx
+  artifactKey: Guid(793a459c639c15e48b8f48e998aca8b7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Meshes/houseAssets/bathRoom/showerDoorDone.fbx using Guid(793a459c639c15e48b8f48e998aca8b7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '14f3e7ad9956f0d8749f6e5840802f4f') in 0.229550 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000030 seconds.
-  path: Assets/Meshes/Model/Bookshelf.fbx
-  artifactKey: Guid(7e69564bd2a4cb24b81bfb0eec3c0092) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Meshes/Model/Bookshelf.fbx using Guid(7e69564bd2a4cb24b81bfb0eec3c0092) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f8121905ad71a1bf6d9bab156e48f678') in 0.157599 seconds 
+  Time since last request: 0.000033 seconds.
+  path: Assets/Meshes/houseAssets/bathRoom
+  artifactKey: Guid(e48b91278484e6346b587f5ac11f02c4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Meshes/houseAssets/bathRoom using Guid(e48b91278484e6346b587f5ac11f02c4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ee0e1268cd346da3b29d2c7e0fe3d512') in 0.008733 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000020 seconds.
-  path: Assets/Meshes/Model/Fridge.fbx
-  artifactKey: Guid(835e2eea2a812c34ca863c36178e9567) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Meshes/Model/Fridge.fbx using Guid(835e2eea2a812c34ca863c36178e9567) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a960ea71e5048f158e6a456551c5502e') in 0.068094 seconds 
+  Time since last request: 0.000044 seconds.
+  path: Assets/Meshes/houseAssets
+  artifactKey: Guid(72fec389b7a3ce14daee89603f7218c2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Meshes/houseAssets using Guid(72fec389b7a3ce14daee89603f7218c2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd7f445fae93a1ca0bf6e0529de54d682') in 0.008620 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 7.478382 seconds.
-  path: Assets/Meshes/Models/BedBath_LayoutMesh.fbx
-  artifactKey: Guid(5a7e91aaaa8c6f5408a4c954f3b5bc47) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Meshes/Models/BedBath_LayoutMesh.fbx using Guid(5a7e91aaaa8c6f5408a4c954f3b5bc47) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'be2980d2cbecfb03792cfc81700b684c') in 0.022329 seconds 
+  Time since last request: 0.898549 seconds.
+  path: Assets/Meshes/houseAssets/houseTasks/standLightbulbDone.fbx
+  artifactKey: Guid(f2c5d19e709cfad46a7b0641d168bdf6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Meshes/houseAssets/houseTasks/standLightbulbDone.fbx using Guid(f2c5d19e709cfad46a7b0641d168bdf6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'be55153e3024dd0a61e9ffb971083b9d') in 0.034867 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000017 seconds.
-  path: Assets/Meshes/Models/ClosetDoor.fbx
-  artifactKey: Guid(a6fb6f97c6ed76e49b30b53dda08b6d6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Meshes/Models/ClosetDoor.fbx using Guid(a6fb6f97c6ed76e49b30b53dda08b6d6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6750b67e5798a079210e5bf6d662c0bc') in 0.049718 seconds 
+  Time since last request: 0.711203 seconds.
+  path: Assets/Meshes/houseAssets/bedRoom/nightStandDone.fbx
+  artifactKey: Guid(9f17b17741dfe5f4e93e0aeff1922962) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Meshes/houseAssets/bedRoom/nightStandDone.fbx using Guid(9f17b17741dfe5f4e93e0aeff1922962) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '48fb7065ec39a9e1f889a31fbed39fd6') in 0.060033 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 152.327630 seconds.
+  path: Assets/Model/Bookcase.fbx
+  artifactKey: Guid(ca2d04dc59ca15340a3d5f8d0e81b50d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Model/Bookcase.fbx using Guid(ca2d04dc59ca15340a3d5f8d0e81b50d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '79b5160e8106c80a85582d5982de5112') in 0.038822 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/Model/ClosetDoor 1.fbx
+  artifactKey: Guid(e53bb5ed14c520a4ca0ce3dee5dcea5a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Model/ClosetDoor 1.fbx using Guid(e53bb5ed14c520a4ca0ce3dee5dcea5a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0b23885ca3a7aa34c54ffd8afe1a1227') in 0.055986 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/Model/Toilet 1.fbx
+  artifactKey: Guid(6561e0186114aac41b93974b38a09e2e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Model/Toilet 1.fbx using Guid(6561e0186114aac41b93974b38a09e2e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e8655ae9ef1f7d3d34bcce4d10a757ed') in 0.040545 seconds 
 Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
+AssetImportWorkerClient::OnTransportError - code=2 error=End of file
 AssetImportWorker is now disconnected from the server
 Process exiting
 Exiting without the bug reporter. Application will terminate with return code 0
