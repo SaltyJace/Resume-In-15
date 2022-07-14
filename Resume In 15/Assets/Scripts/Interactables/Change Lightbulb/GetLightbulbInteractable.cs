@@ -4,7 +4,6 @@ using UnityEngine;
 
 public class GetLightbulbInteractable : Interactable
 {
-
     [SerializeField]
     private GameObject bulbContainer;
 
